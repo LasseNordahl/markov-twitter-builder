@@ -8,10 +8,10 @@ excluded_words = ['&amp;', 'rt', '']
 class TwitterParser:
 
     def __init__(self):
-        CONSUMER_KEY = 'OjXk0A4iZxQGmG72rcq7SL0sy'
-        CONSUMER_KEY_SECRET = 'Uyl92kkj9shxgVGkC7WkYAoskGyAKUbh6r0l25Urqk3GvgcVDH'
-        ACCESS_TOKEN = '1059950711696326656-weAUS5qNWvBKtBbsJbY9FsHQIII4hz'
-        ACCESS_TOKEN_SECRET = 'cro346WIl4ASb5OqoHCNc1VGkL75fZQFUgLbGQxVPo4e2'
+        CONSUMER_KEY = ''
+        CONSUMER_KEY_SECRET = ''
+        ACCESS_TOKEN = ''
+        ACCESS_TOKEN_SECRET = ''
 
         self.api = twitter.Api(consumer_key=CONSUMER_KEY, consumer_secret=CONSUMER_KEY_SECRET, access_token_key=ACCESS_TOKEN, access_token_secret=ACCESS_TOKEN_SECRET)
 
